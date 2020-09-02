@@ -1,0 +1,197 @@
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+body {
+	background: white;
+	line-height: 1;
+	color: black;
+	}
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+    }
+    *{
+     box-sizing:border-box;
+     padding:0;
+     margin:0;
+     max-width:100%;
+        
+    }
+    html{
+        font-size:62.5%;
+    }
+    body{
+        font-size:1.6rem;
+    }
+    p{
+        font-family:'Roboto Mono', monospace;
+
+    }
+    a{
+        text-decoration:none;
+        text-align:center;
+    }
+    nav{
+        text-align:center;
+    }
+    nav a{
+    margin:0 5%;
+    }
+    .hplan{
+        display:inline-block;
+        border-radius:10px;
+        margin:1%;
+        padding:1%;
+        background:#FF764E;
+        color:white;
+    
+        
+
+    }
+    .hlearn{
+        display:inline-block;
+        border-radius:10px;
+        margin:1%;
+        padding:1%;
+        background:#5ED3EB;
+        color:white;
+    }
+    .hinvolve{
+        display:inline-block;
+        border-radius:10px;
+        margin:1%;
+        padding:1%;
+        background:#FFCD69;
+        color:white;
+    }
+    header h1{
+        font-family: 'Chelsea Market', cursive;
+        font-size:3.6rem;
+        
+    }
+    .yimage img{
+        max-width: 300px;
+        max-height: 300px;
+        border-radius:50%;
+    }
+    .head, .yimage, .shead{
+        display:inline-block;
+        vertical-align:middle;
+        margin:auto 5%;
+    }
+    .shead{
+        text-align:center;
+    
+    }
+    .shead h1, p{
+        line-height:2;
+    }
+    #open{
+        margin:0 auto;
+        text-align:center;
+        
+    }
+    .content{
+        color:white;
+        background:#DDB9A3;
+        width:90%;
+        margin: 2% auto;
+        text-align: center;
+
+    }
+    .fire{
+        margin:5%;
+    }
+    .fire p{
+        margin:0 auto;
+        text-align:center;
+        width:50%;
+    }
+    .fire img{
+        max-width: 200px;
+        max-height: 200px;
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+        width:50%;
+    }
+    .van{
+        margin:5%
+    }
+    .van p{
+        margin:0 auto;
+        text-align: center;
+        width: 50%;
+    }
+    .van img{
+        max-width:200px;
+        max-height:200px;
+        display:block;
+        margin:0 auto;
+        width:50%;
+    }
+    footer img{
+    width:100%;
+    height:250px;
+    background-size:cover;
+    
+    }
+    .fnav{
+        text-align:center;
+        background:#F9E7DC;
+        padding:2%;
+    }
+    .fplan{
+        display:inline-block;
+        border-radius:10px;
+        margin:1%;
+        padding:1%;
+        background:#FF764E;
+        color:white;
+    }
+    .flearn{
+        display:inline-block;
+        border-radius:10px;
+        margin:1%;
+        padding:1%;
+        background:#5ED3EB;
+        color:white;
+    }
+    .finvolve{
+        display:inline-block;
+        border-radius:10px;
+        margin:1%;
+        padding:1%;
+        background:#FFCD69;
+        color:white;
+    }
