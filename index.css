@@ -137,6 +137,9 @@ blockquote, q {
         text-align:center;
         width:50%;
     }
+    .fire span{
+        font-weight:bold;
+    }
     .fire img{
         max-width: 200px;
         max-height: 200px;
@@ -152,6 +155,9 @@ blockquote, q {
         margin:0 auto;
         text-align: center;
         width: 50%;
+    }
+    .van span{
+        font-weight:bold;
     }
     .van img{
         max-width:200px;
